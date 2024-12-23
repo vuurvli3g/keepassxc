@@ -119,7 +119,7 @@ void FileWatcher::checkFileChanged()
 
     AsyncTask::runThenCallback([this] { return calculateChecksum(); },
                                this,
-                               [this](QByteArray checksum) {
+                               [this](const QByteArray& checksum) {
                                    if (checksum != m_fileChecksum) {
                                        m_fileChecksum = checksum;
                                        m_fileChangeDelayTimer.start(0);

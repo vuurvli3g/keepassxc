@@ -63,8 +63,8 @@ Database::Database()
         updateTagList();
     });
     connect(this, &Database::modified, this, [this] { updateTagList(); });
-    connect(this, &Database::databaseSaved, this, [this]() { updateCommonUsernames(); });
-    connect(m_fileWatcher, &FileWatcher::fileChanged, this, [this] { emit Database::databaseFileChanged(false); });
+    connect(this, &Database::databaseSaved, this, [this] { updateCommonUsernames(); });
+    connect(m_fileWatcher, &FileWatcher::fileChanged, this, [this] { emit databaseFileChanged(false); });
 
     // static uuid map
     s_uuidMap.insert(m_uuid, this);
