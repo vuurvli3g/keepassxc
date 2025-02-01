@@ -2782,67 +2782,39 @@ Disable safe saves and try again?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reloading database...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reload aborted</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reload OK</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Reload database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>How to proceed with your unsaved changes?</source>
+        <source>Reloading database…</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Merge all changes together</source>
+        <source>Reload canceled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Discard your changes</source>
+        <source>Reload successful</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Ignore the changes in the file on disk</source>
+        <source>Reload pending user action…</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>merged</source>
+        <source>The database file &quot;%1&quot; was modified externally.&lt;br&gt;How would you like to proceed?&lt;br&gt;&lt;br&gt;Merge all changes&lt;br&gt;Ignore the changes on disk until save&lt;br&gt;Discard unsaved changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>discarded</source>
+        <source>The database file &quot;%1&quot; was modified externally.&lt;br&gt;How would you like to proceed?&lt;br&gt;&lt;br&gt;Merge all changes then save&lt;br&gt;Overwrite the changes on disk&lt;br&gt;Discard unsaved changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Changes are %1</source>
+        <source>Database file overwritten.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Error: failed to open the database file for reload</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unlock to reload</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cannot save because the</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>database file &quot;%1&quot; was modified externally</source>
+        <source>Database file on disk cannot be unlocked with current credentials.&lt;br&gt;Enter new credentials and/or present hardware key to continue.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
